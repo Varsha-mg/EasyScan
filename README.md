@@ -1,1 +1,1 @@
-https://github.com/Varsha-mg/EasyScan.git/contact.html
+https://github.com/Varsha-mg/EasyScan.git
