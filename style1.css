@@ -43,15 +43,64 @@ html {
     width: 100%;
   }
   
-  .row {
-    display: table-row;
-    height: 50%;
+  header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 3rem;
+    background-color: rgb(55, 98, 166);
+    padding: 1% 0;
   }
-  
-  .row:nth-child(1) {
-    background-color: #eee;
+  .logo{
+    width: 30%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 3%;
+    padding: 2% 0;
   }
-  
-  .row:nth-child(2) {
-    background-color: #dc1818;
+  nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  nav ul{
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul a{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 40vh;
+    position: relative;
+    left: 20%;
+    color: rgb(138, 134, 134);
+  }
+  .centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 50vh;
+    position: relative;
+    left: 20%;
+  }
+  #bottom{
+    background-color: rgb(118, 160, 102);
+    color: white;
   }
