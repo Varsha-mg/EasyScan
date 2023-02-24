@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing_Details</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(9, 181, 52, 0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #d70e0e;
+  color: rgb(174, 16, 16);
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+/* .button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+} */
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Pricing</h1>
+    <p style="text-align: center;">We are now excited to be offering you the first 60 days free!</p>
+    <br>
+    <div class="columns">
+        <ul class="price">
+          <!-- <li class="header">Basic</li> -->
+          <li class="grey">$150/month </li>
+          <li>Per practitioner for less than 250 monthly surveys</li>
+          
+          <!-- <li class="grey"><a href="#" class="button">Sign Up</a></li> -->
+        </ul>
+      </div>
+      
+      <div class="columns">
+        <ul class="price">
+          <!-- <li class="header">Basic</li> -->
+          <li class="grey">$175 /month</li>
+          <li>Per practioner for 250 plus monthly surveys</li>
+          
+          <!-- <li class="grey"><a href="#" class="button">Sign Up</a></li> -->
+        </ul>
+      </div>
+    
+</body>
+</html>
