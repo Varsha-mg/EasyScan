@@ -1,88 +1,45 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap%27');
-
-*
-{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family:'Poppins',sans-serif;
-
-}
-.contact
-{
-    position: relative;
-    min-height: 100vh;
-    padding:50px 100px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(2, 137, 137);
-    background-size: cover;
+.ctnt{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  position: relative;
+  left: 30%;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  border: 2px solid;
 }
 
-.contact .content {
-
-    max-width:800px;
-    text-align:center;
-
+.container2{
+  display: flex;
+  position: relative;
+  margin-top: 2%
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  width: 40%;
+  height: 30vh;
+  right: 10%;
+  top: 15%;
+  position: absolute;;
+  align-items: center;
+  justify-content: center;
+  transition:  1s ease-in-out;
+}
+.cards{
+  display: flex;
+}
+.card ul{
+  display: flex;
+  flex-direction: column;
 }
 
-.contact .content h2 {
-    font-size: 36px;
-    font-weight: 500;
-    color:#fff;
+.img2{
+  position: relative;
+  left: 10%;
 }
-.contact .content p {
-   
-    font-weight: 300;
-    color:#fff;
-}
-
-.container{
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.container  .contactInfo
-{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.container  .contactInfo  .box
-{
-    position: relative;
-    padding: 20px 0;
-    display: flex;
-}
-
-.container  .contactInfo  .box .icon
-{
-    min-width:60px;
-    height: 60px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 22px;
-
-}
-.container  .contactinfo .box .text
-{
-    display:flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color:#fff;
-    flex-direction: column;
-    font-weight: 300;
-} */
-
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
