@@ -1,0 +1,57 @@
+
+
+
+/* Split the screen in half */
+/* .split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+
+/* Control the right side */
+/* .border-bottom {
+  right: 0;
+  background-color: rgb(6, 228, 72);
+} */
+
+/* If you want the content centered horizontally and vertically */
+/* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */ 
+
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: table;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .row {
+    display: table-row;
+    height: 50%;
+  }
+  
+  .row:nth-child(1) {
+    background-color: #eee;
+  }
+  
+  .row:nth-child(2) {
+    background-color: #dc1818;
+  }
