@@ -1,53 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EASY HEALTH SCAN </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
     <style>
         ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
 
-  }
+        }
     </style>
 </head>
+
 <body>
-    <div  class="about-section">
-        <h1 style="text-align:center;" ><u > What We Do </u></h1>
-        
-        <p >
-        
-</p>
-         
-         <div>
-            
-         <p>Easy Health Scan is an online tool that automates the survey taking and submitting process. With a simple QR code scan, patients can now fill out and submit surveys that insurance companies will reimburse your practice for. It’s as simple as having patients scan the code, fill out the survey on their smartphone devices, and letting Easy Health Scan do the rest. 
-
-        </p>
-         <!-- <p><b>>&nbsp;</b><b> </b></p>
-         <p><b>> &nbsp;</b><b>Fat Loss & Cuttings</b></p>
-         <p><b>>&nbsp;</b><b> Muscle Gain</b></p>
-         <p><b>> &nbsp;</b><b>Strength & Conditioning</b> </p> -->
-         <ul>
-            <li>Revenue generator</li>
-                <li>No upfront costs</li>
-                <li>No equipment or devices needed</li>
-                <div>
+    <div class="about-section">
+        <div class="ctnt">
+            <h1 style="text-align:center;margin-bottom: 3px;"> What We Do </h1>
+            <p  style="text-align:center;">Easy Health Scan is an online tool that automates the survey taking and submitting process. With a simple
+                QR code scan, patients can now fill out and submit surveys that insurance companies will reimburse your
+                practice for. It’s as simple as having patients scan the code, fill out the survey on their smartphone
+                devices, and letting Easy Health Scan do the rest.
+            </p>
+        </div>
+       
+        <div class="container2">
+            <div class="img2">
                 <img src="easy_health_scan_scanning.png ">
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <ul>
+                    <li>Revenue generator</li>
+                    <li>No upfront costs</li>
+                    <li>No equipment or devices needed</li>
+                </ul>
                 </div>
-                <li>Helpful data for value-based care & population health programs</li>
-                <li>Easy submittal through QR code</li>
-                <li>HIPAA Compliant</li>
-
-               
-         </ul>
-         </div>
-         
+                <div class="card">
+                    <ul>
+                        <li>Helpful data for value-based care & population health programs</li>
+                        <li>Easy submittal through QR code</li>
+                        <li>HIPAA Compliant</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
     </div>
+
+    <script>
+         var autoslideIndex = 0;
+             
+
+              function autoshowSlides() {
+                 var i;
+                 var autoslides = document.getElementsByClassName("card");
+                 for (i = 0; i < autoslides.length; i++) {
+                   
+                    autoslides[i].style.display = "none";
+                 }
+                  autoslideIndex++;
+                //   console.log(autoslideIndex);
+                   if (autoslideIndex > autoslides.length)
+                    { autoslideIndex=1 }
+                   autoslides[autoslideIndex -1].style.display = "flex";
+                   setTimeout(autoshowSlides, 2000); // Change image every 2 seconds
+                }
+                   autoshowSlides();
+    </script>
 </body>
+
 </html>
