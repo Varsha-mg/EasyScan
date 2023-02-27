@@ -1,0 +1,49 @@
+.price {
+    list-style-type: none;
+    /* border: 1px solid #eee; */
+    /* margin: 0;
+    padding: 0; */
+    -webkit-transition: 0.3s;
+    transition: 1s;
+  }
+  .container3{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid; */
+    justify-content: space-around;
+  }
+
+  /* .wrapper{
+    border: 1px solid;
+    position: relative;
+    
+  } */
+
+  /* Add shadows on hover */
+  .columns:hover {
+    box-shadow: 0 8px 12px 0  rgb(77, 126, 204);
+    transform: scale(120%);
+
+  }
+
+  /* Pricing header */
+  .price .header {
+    background-color: #d70e0e;
+    color: rgb(174, 16, 16);
+    font-size: 25px;
+  }
+
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Grey list item */
+  .price .grey {
+    background-color:rgb(77, 126, 204);
+    font-size: 20px;
+  }
+
+  
