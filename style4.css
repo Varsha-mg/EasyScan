@@ -168,13 +168,13 @@ html {
   .navbar-nav a{
     color: white;
   }
-  
+  /*media query*/
   @media only screen and (max-width: 600px) {
     .columns {
       width: 100%;
     }
 
-    /*Nvabar*/
+   
    
 
     
@@ -192,8 +192,6 @@ html {
       width: 60%;
       
     }
-
-    
 
     #contactus{
       margin-bottom: 2%;
@@ -232,6 +230,8 @@ html {
       width: 20%;
     }
   }
+/*media query end*/
+
 
   .container2{
     display: flex;
